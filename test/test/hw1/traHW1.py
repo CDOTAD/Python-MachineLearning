@@ -3,7 +3,7 @@
 import pandas
 import numpy
 import os,sys
-#from lshash import LSHash
+from lshash import LSHash
 from sklearn.neighbors import NearestNeighbors
 
 
@@ -233,7 +233,7 @@ def writeHTML( resultList, fileName, queryType ):
     return
 
 #轨道数据进行LSH queryName用于指定记录结果的文件名 hashSize 用于指定lshash的hash_size
-"""def traceLSHash(queryName, hashSize):
+def traceLSHash(queryName, hashSize):
     #queryName ="hamming_query_12_3"
     #需要进行hashQuery的轨迹index
     indexList=[14,249,479,689,899]
@@ -306,4 +306,3 @@ def traceKNN(queryName,nNeighbors):
 
 
 
-"""
