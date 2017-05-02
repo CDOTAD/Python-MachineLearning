@@ -14,27 +14,21 @@
 ##  轨迹数据挖掘作业
 
 ### hw1
-
-####  aim
-
+#### aim
 <li>轨迹数据栅格化</li>
 <li>轨迹数据聚类</li>
 <li>轨迹数据可视化</li>
 
-####  use
-
+#### use
 <li>lsh-hash</li>
 <li>NearestNeighbors<li>
 
 ### hw2
-
-####  aim
-
+#### aim
 <li>轨迹数据聚类</li>
 <li>比较不同的聚类算法</li>
 
-####  use
-
+#### use
 <li>k-means</li>
 <li>DBSACN</li>
 <li>GaussianMixture</li>
