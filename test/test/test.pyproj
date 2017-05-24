@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>32748188-b366-4ab2-b56f-3c170a263d6f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>hw2\hw2.py</StartupFile>
+    <StartupFile>hw3\compare.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,9 @@
   <ItemGroup>
     <Folder Include="hw1\" />
     <Folder Include="hw2\" />
+    <Folder Include="hw3\" />
+    <Folder Include="hw3\2G GSM\" />
+    <Folder Include="hw3\4G LTE\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="hw1\Main.py" />
@@ -35,6 +38,36 @@
     <Compile Include="hw1\visualTrace.py" />
     <Compile Include="hw2\hw2.py" />
     <Compile Include="hw2\KMean.py" />
+    <Compile Include="hw3\apriori.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hw3\compare.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hw3\fp_growth.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hw3\FPGrowth.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hw3\GSP.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hw3\read2G.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hw3\2G GSM\2g_gongcan_new.csv" />
+    <Content Include="hw3\2G GSM\localizationTest2G.csv" />
+    <Content Include="hw3\2G GSM\localizationTrain2G.csv" />
+    <Content Include="hw3\2G GSM\new2gtest.csv" />
+    <Content Include="hw3\2G GSM\new2gtrain.csv" />
+    <Content Include="hw3\4G LTE\4Gcommonarg20160505.csv" />
+    <Content Include="hw3\4G LTE\localizationTest.csv" />
+    <Content Include="hw3\4G LTE\localizationTrain.csv" />
+    <Content Include="hw3\4G LTE\new4gtest.csv" />
+    <Content Include="hw3\4G LTE\new4gtrain.csv" />
   </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
   <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
