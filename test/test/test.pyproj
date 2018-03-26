@@ -31,6 +31,9 @@
     <Folder Include="hw3\" />
     <Folder Include="hw3\2G GSM\" />
     <Folder Include="hw3\4G LTE\" />
+    <Folder Include="hw4\" />
+    <Folder Include="hw4\2G\" />
+    <Folder Include="hw4\4G\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="hw1\Main.py" />
@@ -54,6 +57,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="hw3\read2G.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hw4\hw4.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

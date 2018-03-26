@@ -33,7 +33,7 @@ for n_components_ in componentsList:
         break
 
 
-print "!!!!!!"
+print ("!!!!!!")
 
 def function():
     X=range(10,26)
