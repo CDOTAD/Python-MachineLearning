@@ -7,11 +7,16 @@
 <li>Anaconda 4.1.1(64-bit)</li>
 <li>sklearn</li>
 
+# Recommander System
+<li>UserCF</li>
+<li>ItemCF</li>
+
+《参考推荐系统实践》
+
+
 # Data Mining Assignment
 
 数据挖掘课程作业的代码
-
-##  轨迹数据挖掘作业
 
 ### hw1
 #### aim
@@ -32,3 +37,14 @@
 <li>k-means</li>
 <li>DBSACN</li>
 <li>GaussianMixture</li>
+
+### hw3
+
+关联规则
+
+<li>fp_growth</li>
+<li>apriori</li>
+
+### hw4
+
+<li>hmm</li>
